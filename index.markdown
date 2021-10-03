@@ -6,43 +6,5 @@
     <input id="newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
-(function(){
-  var initial = "def moyenne(ma_liste):\n" +
-    "    # On vérifie que l&#039;argument est bien une liste.\n" +
-    "    assert(isinstance(ma_liste, list)), &quot;Il n&#039;y a pas de liste !&quot;\n" +
-    "    # On vérifie que la liste n&#039;est pas vide.\n" +
-    "    assert(len(ma_liste) != 0), &quot;La liste est vide !&quot;\n" +
-    "    # On vérifie que tous les éléments de la liste sont bien des nombres.\n" +
-    "    for elem in ma_liste:\n" +
-    "        assert(isinstance(elem, int) or isinstance(elem, float)), &quot;Un élément n&#039;est pas un nombre !&quot;\n" +
-    "    # Le calcul de la moyenne en lui-même\n" +
-    "    somme = 0\n" +
-    "    for i in range(0, len(ma_liste)):\n" +
-    "        somme = somme + ma_liste[i]\n" +
-    "    return somme/len(ma_liste)\n" +
-    "asdfadsf #distractor\n" +
-    "asdfadsfadsf #distractor\n" +
-    "adsfasdfadsf #distractor\n" +
-    "asdfadsfasdf #distractor";
-  var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "sortable",
-    "max_wrong_lines": 10,
-    "grader": ParsonsWidget._graders.LineBasedGrader,
-    "exec_limit": 2500,
-    "can_indent": true,
-    "x_indent": 50,
-    "lang": "en",
-    "trashId": "sortableTrash"
-  });
-  parsonsPuzzle.init(initial);
-  parsonsPuzzle.shuffleLines();
-  $("#newInstanceLink").click(function(event){ 
-      event.preventDefault(); 
-      parsonsPuzzle.shuffleLines(); 
-  }); 
-  $("#feedbackLink").click(function(event){ 
-      event.preventDefault(); 
-      parsonsPuzzle.getFeedback(); 
-  }); 
-})(); 
+function _0x25d1(){var _0x519816=['\x20\x20\x20\x20#\x20On\x20vérifie\x20que\x20l&#039;argument\x20est\x20bien\x20une\x20liste.\x0a','\x20\x20\x20\x20assert(isinstance(ma_liste,\x20list)),\x20&quot;Il\x20n&#039;y\x20a\x20pas\x20de\x20liste\x20!&quot;\x0a','LineBasedGrader','\x20\x20\x20\x20#\x20On\x20vérifie\x20que\x20la\x20liste\x20n&#039;est\x20pas\x20vide.\x0a','\x20\x20\x20\x20somme\x20=\x200\x0a','\x20\x20\x20\x20assert(len(ma_liste)\x20!=\x200),\x20&quot;La\x20liste\x20est\x20vide\x20!&quot;\x0a','def\x20moyenne(ma_liste):\x0a','\x20\x20\x20\x20\x20\x20\x20\x20somme\x20=\x20somme\x20+\x20ma_liste[i]\x0a','preventDefault','_graders','184605KvJsBs','asdfadsfadsf\x20#distractor\x0a','8nolGoI','423020ebKYje','4492755GYLUDM','\x20\x20\x20\x20for\x20i\x20in\x20range(0,\x20len(ma_liste)):\x0a','\x20\x20\x20\x20#\x20On\x20vérifie\x20que\x20tous\x20les\x20éléments\x20de\x20la\x20liste\x20sont\x20bien\x20des\x20nombres.\x0a','\x20\x20\x20\x20return\x20somme/len(ma_liste)\x0a','init','225066WACDuI','188868CadpHR','shuffleLines','\x20\x20\x20\x20\x20\x20\x20\x20assert(isinstance(elem,\x20int)\x20or\x20isinstance(elem,\x20float)),\x20&quot;Un\x20élément\x20n&#039;est\x20pas\x20un\x20nombre\x20!&quot;\x0a','click','10FKOvux','1625208tJixqE','84pMjyNq','\x20\x20\x20\x20#\x20Le\x20calcul\x20de\x20la\x20moyenne\x20en\x20lui-même\x0a','32914mIfZbi','asdfadsfasdf\x20#distractor'];_0x25d1=function(){return _0x519816;};return _0x25d1();}function _0x1c5c(_0x1dd76b,_0x197ba2){var _0x25d127=_0x25d1();return _0x1c5c=function(_0x1c5c88,_0x394b70){_0x1c5c88=_0x1c5c88-0x176;var _0x5c7a60=_0x25d127[_0x1c5c88];return _0x5c7a60;},_0x1c5c(_0x1dd76b,_0x197ba2);}(function(_0x33cc82,_0x593767){var _0xd8a255=_0x1c5c,_0x75f291=_0x33cc82();while(!![]){try{var _0x47e87f=parseInt(_0xd8a255(0x191))/0x1+parseInt(_0xd8a255('0x18a'))/0x2+parseInt(_0xd8a255('0x190'))/0x3+-parseInt(_0xd8a255('0x189'))/0x4*(parseInt(_0xd8a255(0x187))/0x5)+parseInt(_0xd8a255(0x179))/0x6*(parseInt(_0xd8a255(0x17b))/0x7)+parseInt(_0xd8a255('0x178'))/0x8+parseInt(_0xd8a255('0x18b'))/0x9*(-parseInt(_0xd8a255(0x177))/0xa);if(_0x47e87f===_0x593767)break;else _0x75f291['push'](_0x75f291['shift']());}catch(_0x7e7d17){_0x75f291['push'](_0x75f291['shift']());}}}(_0x25d1,0x29d4e),function(){var _0x24cbd0=_0x1c5c,_0x2718f1=_0x24cbd0(0x183)+_0x24cbd0('0x17d')+_0x24cbd0('0x17e')+_0x24cbd0(0x180)+_0x24cbd0(0x182)+_0x24cbd0('0x18d')+'\x20\x20\x20\x20for\x20elem\x20in\x20ma_liste:\x0a'+_0x24cbd0('0x193')+_0x24cbd0(0x17a)+_0x24cbd0(0x181)+_0x24cbd0(0x18c)+_0x24cbd0(0x184)+_0x24cbd0('0x18e')+'asdfadsf\x20#distractor\x0a'+_0x24cbd0(0x188)+'adsfasdfadsf\x20#distractor\x0a'+_0x24cbd0('0x17c'),_0x45183c=new ParsonsWidget({'sortableId':'sortable','max_wrong_lines':0xa,'grader':ParsonsWidget[_0x24cbd0('0x186')][_0x24cbd0('0x17f')],'exec_limit':0x9c4,'can_indent':!![],'x_indent':0x32,'lang':'en','trashId':'sortableTrash'});_0x45183c[_0x24cbd0('0x18f')](_0x2718f1),_0x45183c[_0x24cbd0('0x192')](),$('#newInstanceLink')[_0x24cbd0('0x176')](function(_0x17f03c){var _0x48f115=_0x24cbd0;_0x17f03c['preventDefault'](),_0x45183c[_0x48f115(0x192)]();}),$('#feedbackLink')[_0x24cbd0(0x176)](function(_0xc3a471){var _0x3714c9=_0x24cbd0;_0xc3a471[_0x3714c9('0x185')](),_0x45183c['getFeedback']();});}());
 </script>
