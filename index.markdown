@@ -30,12 +30,29 @@
   })    
 </script>
 
-
-
-
-
-
 <script type="text/javascript"> 
-
-function _0x25d1(){var _0x519816=['\x20\x20\x20\x20#\x20On\x20vérifie\x20que\x20l&#039;argument\x20est\x20bien\x20une\x20liste.\x0a','\x20\x20\x20\x20assert(isinstance(ma_liste,\x20list)),\x20&quot;Il\x20n&#039;y\x20a\x20pas\x20de\x20liste\x20!&quot;\x0a','LineBasedGrader','\x20\x20\x20\x20#\x20On\x20vérifie\x20que\x20la\x20liste\x20n&#039;est\x20pas\x20vide.\x0a','\x20\x20\x20\x20somme\x20=\x200\x0a','\x20\x20\x20\x20assert(len(ma_liste)\x20!=\x200),\x20&quot;La\x20liste\x20est\x20vide\x20!&quot;\x0a','def\x20moyenne(ma_liste):\x0a','\x20\x20\x20\x20\x20\x20\x20\x20somme\x20=\x20somme\x20+\x20ma_liste[i]\x0a','preventDefault','_graders','184605KvJsBs','asdfadsfadsf\x20#distractor\x0a','8nolGoI','423020ebKYje','4492755GYLUDM','\x20\x20\x20\x20for\x20i\x20in\x20range(0,\x20len(ma_liste)):\x0a','\x20\x20\x20\x20#\x20On\x20vérifie\x20que\x20tous\x20les\x20éléments\x20de\x20la\x20liste\x20sont\x20bien\x20des\x20nombres.\x0a','\x20\x20\x20\x20return\x20somme/len(ma_liste)\x0a','init','225066WACDuI','188868CadpHR','shuffleLines','\x20\x20\x20\x20\x20\x20\x20\x20assert(isinstance(elem,\x20int)\x20or\x20isinstance(elem,\x20float)),\x20&quot;Un\x20élément\x20n&#039;est\x20pas\x20un\x20nombre\x20!&quot;\x0a','click','10FKOvux','1625208tJixqE','84pMjyNq','\x20\x20\x20\x20#\x20Le\x20calcul\x20de\x20la\x20moyenne\x20en\x20lui-même\x0a','32914mIfZbi','asdfadsfasdf\x20#distractor'];_0x25d1=function(){return _0x519816;};return _0x25d1();}function _0x1c5c(_0x1dd76b,_0x197ba2){var _0x25d127=_0x25d1();return _0x1c5c=function(_0x1c5c88,_0x394b70){_0x1c5c88=_0x1c5c88-0x176;var _0x5c7a60=_0x25d127[_0x1c5c88];return _0x5c7a60;},_0x1c5c(_0x1dd76b,_0x197ba2);}(function(_0x33cc82,_0x593767){var _0xd8a255=_0x1c5c,_0x75f291=_0x33cc82();while(!![]){try{var _0x47e87f=parseInt(_0xd8a255(0x191))/0x1+parseInt(_0xd8a255('0x18a'))/0x2+parseInt(_0xd8a255('0x190'))/0x3+-parseInt(_0xd8a255('0x189'))/0x4*(parseInt(_0xd8a255(0x187))/0x5)+parseInt(_0xd8a255(0x179))/0x6*(parseInt(_0xd8a255(0x17b))/0x7)+parseInt(_0xd8a255('0x178'))/0x8+parseInt(_0xd8a255('0x18b'))/0x9*(-parseInt(_0xd8a255(0x177))/0xa);if(_0x47e87f===_0x593767)break;else _0x75f291['push'](_0x75f291['shift']());}catch(_0x7e7d17){_0x75f291['push'](_0x75f291['shift']());}}}(_0x25d1,0x29d4e),function(){var _0x24cbd0=_0x1c5c,_0x2718f1=_0x24cbd0(0x183)+_0x24cbd0('0x17d')+_0x24cbd0('0x17e')+_0x24cbd0(0x180)+_0x24cbd0(0x182)+_0x24cbd0('0x18d')+'\x20\x20\x20\x20for\x20elem\x20in\x20ma_liste:\x0a'+_0x24cbd0('0x193')+_0x24cbd0(0x17a)+_0x24cbd0(0x181)+_0x24cbd0(0x18c)+_0x24cbd0(0x184)+_0x24cbd0('0x18e')+'asdfadsf\x20#distractor\x0a'+_0x24cbd0(0x188)+'adsfasdfadsf\x20#distractor\x0a'+_0x24cbd0('0x17c'),_0x45183c=new ParsonsWidget({'sortableId':'sortable','max_wrong_lines':0xa,'grader':ParsonsWidget[_0x24cbd0('0x186')][_0x24cbd0('0x17f')],'exec_limit':0x9c4,'can_indent':!![],'x_indent':0x32,'lang':'en','trashId':'sortableTrash'});_0x45183c[_0x24cbd0('0x18f')](_0x2718f1),_0x45183c[_0x24cbd0('0x192')](),$('#newInstanceLink')[_0x24cbd0('0x176')](function(_0x17f03c){var _0x48f115=_0x24cbd0;_0x17f03c['preventDefault'](),_0x45183c[_0x48f115(0x192)]();}),$('#feedbackLink')[_0x24cbd0(0x176)](function(_0xc3a471){var _0x3714c9=_0x24cbd0;_0xc3a471[_0x3714c9('0x185')](),_0x45183c['getFeedback']();});}());
+(function(){
+  var _0x573cee=_0x4d36;function _0x4d36(_0x159b45,_0x2f0af0){var _0xf717e3=_0xf717();return _0x4d36=function(_0x4d3671,_0x4fb6f0){_0x4d3671=_0x4d3671-0x173;var _0x2ee00f=_0xf717e3[_0x4d3671];return _0x2ee00f;},_0x4d36(_0x159b45,_0x2f0af0);}(function(_0x20d905,_0x38d369){var _0x56a145=_0x4d36,_0x1ecf48=_0x20d905();while(!![]){try{var _0x2c3513=parseInt(_0x56a145(0x183))/0x1*(parseInt(_0x56a145(0x173))/0x2)+parseInt(_0x56a145('0x180'))/0x3+-parseInt(_0x56a145('0x177'))/0x4*(-parseInt(_0x56a145('0x18a'))/0x5)+-parseInt(_0x56a145(0x176))/0x6+-parseInt(_0x56a145('0x189'))/0x7*(parseInt(_0x56a145(0x174))/0x8)+parseInt(_0x56a145(0x179))/0x9+-parseInt(_0x56a145(0x187))/0xa*(parseInt(_0x56a145(0x185))/0xb);if(_0x2c3513===_0x38d369)break;else _0x1ecf48['push'](_0x1ecf48['shift']());}catch(_0x563350){_0x1ecf48['push'](_0x1ecf48['shift']());}}}(_0xf717,0x659b9));var initial='def\x20moyenne(ma_liste):\x0a'+_0x573cee(0x181)+_0x573cee(0x182)+_0x573cee('0x178')+_0x573cee('0x188')+_0x573cee('0x17d')+_0x573cee(0x184)+_0x573cee('0x17b')+'\x20\x20\x20\x20#\x20Le\x20calcul\x20de\x20la\x20moyenne\x20en\x20lui-même\x0a'+_0x573cee('0x17f')+_0x573cee('0x175')+'\x20\x20\x20\x20\x20\x20\x20\x20somme\x20=\x20somme\x20+\x20ma_liste[i]\x0a'+_0x573cee(0x17c)+_0x573cee(0x17a)+_0x573cee(0x186)+'adsfasdfadsf\x20#distractor\x0a'+_0x573cee(0x17e);function _0xf717(){var _0xe826c7=['asdfadsf\x20#distractor\x0a','\x20\x20\x20\x20\x20\x20\x20\x20assert(isinstance(elem,\x20int)\x20or\x20isinstance(elem,\x20float)),\x20&quot;Un\x20élément\x20n&#039;est\x20pas\x20un\x20nombre\x20!&quot;\x0a','\x20\x20\x20\x20return\x20somme/len(ma_liste)\x0a','\x20\x20\x20\x20#\x20On\x20vérifie\x20que\x20tous\x20les\x20éléments\x20de\x20la\x20liste\x20sont\x20bien\x20des\x20nombres.\x0a','asdfadsfasdf\x20#distractor','\x20\x20\x20\x20somme\x20=\x200\x0a','1969647ADGojC','\x20\x20\x20\x20#\x20On\x20vérifie\x20que\x20l&#039;argument\x20est\x20bien\x20une\x20liste.\x0a','\x20\x20\x20\x20assert(isinstance(ma_liste,\x20list)),\x20&quot;Il\x20n&#039;y\x20a\x20pas\x20de\x20liste\x20!&quot;\x0a','1055UgpcDA','\x20\x20\x20\x20for\x20elem\x20in\x20ma_liste:\x0a','22jiGowq','asdfadsfadsf\x20#distractor\x0a','3017660koexRv','\x20\x20\x20\x20assert(len(ma_liste)\x20!=\x200),\x20&quot;La\x20liste\x20est\x20vide\x20!&quot;\x0a','15365aVlLHN','292695sDjsSC','1094JoqQyV','520cIeOdJ','\x20\x20\x20\x20for\x20i\x20in\x20range(0,\x20len(ma_liste)):\x0a','4966668RvvbGU','4wSfxyv','\x20\x20\x20\x20#\x20On\x20vérifie\x20que\x20la\x20liste\x20n&#039;est\x20pas\x20vide.\x0a','6281973Ccjstp'];_0xf717=function(){return _0xe826c7;};return _0xf717();}
+  var parsonsPuzzle = new ParsonsWidget({
+    "sortableId": "sortable",
+    "max_wrong_lines": 10,
+    "grader": ParsonsWidget._graders.LineBasedGrader,
+    "exec_limit": 2500,
+    "can_indent": true,
+    "x_indent": 50,
+    "lang": "en",
+    "trashId": "sortableTrash"
+  });
+  parsonsPuzzle.init(initial);
+  parsonsPuzzle.shuffleLines();
+  $("#newInstanceLink").click(function(event){ 
+      event.preventDefault(); 
+      parsonsPuzzle.shuffleLines(); 
+  }); 
+  $("#feedbackLink").click(function(event){ 
+      event.preventDefault(); 
+      parsonsPuzzle.getFeedback(); 
+      console.log(parsonsPuzzle.getFeedback());
+  }); 
+})(); 
 </script>
