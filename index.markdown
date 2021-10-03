@@ -8,7 +8,6 @@
 
 
 <form name="submit-to-google-sheet">
-  <input name="email" type="email" placeholder="Email" required>
   <input name="firstName" type="text" placeholder="First Name">
   <input name="lastName" type="text" placeholder="Last Name">
   <button type="submit">Send</button>
@@ -20,6 +19,7 @@
 
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbydAPY9dFkdTT7zhC5X7z22HiDCIpq4LHwVGgwTAx2JQkL-bvyTORn3UDzZFfsbfR0k/exec'
+  const form = document.forms['submit-to-google-sheet']
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
