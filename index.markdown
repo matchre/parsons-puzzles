@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Page 2 Example (Variable Check Grader)
+layout: page
+title: TRI FUSION
 ---
 
 <div id="sortableTrash" class="sortable-code"></div> 
