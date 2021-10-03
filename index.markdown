@@ -19,7 +19,11 @@
     "    somme = 0\n" +
     "    for i in range(0, len(ma_liste)):\n" +
     "        somme = somme + ma_liste[i]\n" +
-    "    return somme/len(ma_liste)";
+    "    return somme/len(ma_liste)\n" +
+    "asdfadsf #distractor\n" +
+    "asdfadsfadsf #distractor\n" +
+    "adsfasdfadsf #distractor\n" +
+    "asdfadsfasdf #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
@@ -27,7 +31,8 @@
     "exec_limit": 2500,
     "can_indent": true,
     "x_indent": 50,
-    "lang": "en"
+    "lang": "en",
+    "trashId": "sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
