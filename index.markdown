@@ -1,3 +1,8 @@
+---
+layout: default
+title: Page 2 Example (Variable Check Grader)
+---
+
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -45,7 +50,6 @@
   $("#feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
-      console.log(parsonsPuzzle.getFeedback());
   }); 
 })(); 
 </script>
