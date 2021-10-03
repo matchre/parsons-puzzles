@@ -33,7 +33,7 @@
     "exec_limit": 2500,
     "can_indent": true,
     "x_indent": 50,
-    "lang": "en",
+    "lang": "fr",
     "trashId": "sortableTrash"
   });
   parsonsPuzzle.init(initial);
