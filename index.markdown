@@ -14,9 +14,7 @@
   <button type="submit">Send</button>
 </form>
 
-<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
-<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
-<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+
 
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbydAPY9dFkdTT7zhC5X7z22HiDCIpq4LHwVGgwTAx2JQkL-bvyTORn3UDzZFfsbfR0k/exec'
